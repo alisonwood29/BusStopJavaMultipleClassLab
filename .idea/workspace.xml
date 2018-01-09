@@ -37,35 +37,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BusStop.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BusStop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusStopTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BusStopTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Person.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,12 +60,43 @@
       <file leaf-file-name="BusTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BusTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="311">
               <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#308#309#0" expanded="true" />
                 <element signature="e#361#362#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusStop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BusStop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusStopTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BusStopTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -406,8 +408,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/BusTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bus.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BusStopTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/BusStop.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BusStopTest.java" />
       </list>
     </option>
   </component>
@@ -498,7 +500,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BusStopTest.canAddPersonToQueue">
+  <component name="RunManager" selected="JUnit.BusStopTest.canRemovePersonFromQueue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -540,14 +542,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="BusStopTest.queueIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BusStopTest.canRemovePersonFromQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="BusStopLab_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BusStopTest" />
-      <option name="METHOD_NAME" value="queueIsEmpty" />
+      <option name="METHOD_NAME" value="canRemovePersonFromQueue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -560,14 +562,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="BusTest.busCanTakePassenger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BusStopTest.queueIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="BusStopLab_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BusTest" />
-      <option name="METHOD_NAME" value="busCanTakePassenger" />
+      <option name="MAIN_CLASS_NAME" value="BusStopTest" />
+      <option name="METHOD_NAME" value="queueIsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -681,19 +683,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BusTest.busCanTakePassenger" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BusTest.busIsFull" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BusTest.canRemovePassenger" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BusStopTest.queueIsEmpty" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BusStopTest.canAddPersonToQueue" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BusTest.busIsFull" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BusTest.canRemovePassenger" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BusStopTest.queueIsEmpty" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BusStopTest.canAddPersonToQueue" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BusStopTest.canRemovePersonFromQueue" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BusStopTest.canAddPersonToQueue" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BusStopTest.queueIsEmpty" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BusTest.canRemovePassenger" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BusTest.busIsFull" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BusTest.busCanTakePassenger" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BusStopTest.canRemovePersonFromQueue" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BusTest.canRemovePassenger" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BusStopTest.canAddPersonToQueue" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BusStopTest.queueIsEmpty" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BusTest.busIsFull" />
       </list>
     </recent_temporary>
   </component>
@@ -717,6 +719,9 @@
     <history-entry file="BusStopTest_canAddPersonToQueue - 2018.01.09 at 14h 47m 51s.xml">
       <configuration name="BusStopTest.canAddPersonToQueue" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BusStopTest_canRemovePersonFromQueue - 2018.01.09 at 14h 56m 25s.xml">
+      <configuration name="BusStopTest.canRemovePersonFromQueue" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="BusStopTest_queueIsEmpty - 2018.01.09 at 14h 45m 55s.xml">
       <configuration name="BusStopTest.queueIsEmpty" configurationId="JUnit" />
     </history-entry>
@@ -737,9 +742,6 @@
     </history-entry>
     <history-entry file="BusTest_busIsFull - 2018.01.09 at 14h 22m 29s.xml">
       <configuration name="BusTest.busIsFull" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BusTest_busStartsEmpty - 2018.01.09 at 13h 58m 53s.xml">
-      <configuration name="BusTest.busStartsEmpty" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BusTest_canRemovePassenger - 2018.01.09 at 14h 28m 22s.xml">
       <configuration name="BusTest.canRemovePassenger" configurationId="JUnit" />
@@ -803,18 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BusTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Bus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -828,23 +818,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BusTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BusStop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="e#266#267#0" expanded="true" />
             <element signature="e#306#307#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
             <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BusStopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        <state relative-caret-position="241">
+          <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#331#332#0" expanded="true" />
