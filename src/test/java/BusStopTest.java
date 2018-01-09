@@ -28,7 +28,7 @@ public class BusStopTest {
     @Test
     public void canRemovePersonFromQueue() {
         busStop.addPersonToQueue(person);
-        busStop.removePersonFromQueue();
+        Person removedPerson = busStop.removePersonFromQueue();
         assertEquals(0, busStop.queueCount());
     }
 }
